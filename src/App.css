@@ -28,6 +28,44 @@
   color: #61dafb;
 }
 
+
+.gridcontainer{
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+} 
+
+.pageNo {
+  margin: 0.5rem 0.5rem;
+  background-color: greenyellow;
+  border-radius: 1rem;
+  width: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchbox {
+  margin-bottom: 10px;
+  background-color: #282c34;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+.input {
+  padding-left: 0.5rem;
+  border-radius: 0.7rem;
+  width: 20rem;
+  height: 30px;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
